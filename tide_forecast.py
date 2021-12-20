@@ -22,9 +22,9 @@ def main():
     data = fontstyle.apply(
         f"|| {arr[4]} = {arr[5]} ||\n|| {arr[9]} = {arr[10]}  ||\n|| {arr[14]} = {arr[15]} ||\n|| {arr[19]} = {arr[20]}  ||", "bold/white/BLACK_BG")
 
-    print(fontstyle.apply("=======================================", "bold/red/YELLOW_BG"))
+    print(fontstyle.apply("========================", "bold/red/YELLOW_BG"))
     print(f"{data}")
-    print(fontstyle.apply("=======================================", "bold/red/YELLOW_BG"))
+    print(fontstyle.apply("========================", "bold/red/YELLOW_BG"))
 
 
 if __name__ == "__main__":
